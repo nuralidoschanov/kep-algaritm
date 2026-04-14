@@ -2,8 +2,7 @@ n = int(input())
 i = 1
 sonlar = []
 while 1 <= n:
-    son = input()
+    son = int(input())
     sonlar.append(son)
     i += 1
-
-print(sonlar)
+print(sonlar[-2], sonlar[-1])
